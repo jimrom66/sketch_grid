@@ -18,12 +18,12 @@ function gridsketc(numberOfBoxes){
     let newDiv=document.createElement("div");
     newDiv.classList.add("my_div");
     newDiv.style.width = `${divSize}px`;  // Set width of each box
-    newDiv.textContent= i + 1;
     container.appendChild(newDiv);
     newDiv.addEventListener("mouseenter",function(){
         newDiv.style.backgroundColor="purple";
     })
 }}
+    
 
 function reset(){
 container.innerHTML=""

@@ -14,12 +14,8 @@
 .my_div{
     border: 1px solid red;
     box-sizing: border-box;
-    flex:1 1 25%;
-    /* height: 25%; */
-    /* width: 25%; */
-    
+    flex-grow: 1;
 
-    
 }
 
 
